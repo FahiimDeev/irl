@@ -20,7 +20,7 @@
 // ---------------------------------------------------------------------------
 
 // class NewsService {
-//   final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; // Replace with your API key
+//   final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; 
 //   final String baseUrl = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=';
 
 //   Future<List<dynamic>> fetchNews({String? category}) async {
@@ -41,7 +41,7 @@
 
 // --------------------------------------------------------------------------------------------------------
 // class NewsService {
-//   final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; // Replace with your API key
+//   final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; 
 //   final String baseUrl = 'https://newsapi.org/v2/';
 
 //   Future<List<dynamic>> fetchNews({String? category, String? query}) async {
@@ -61,7 +61,7 @@
 // }
 // ----------------------------------------------------------------------------------------------------
 // class NewsService {
-//   final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; // Replace with your API key
+//   final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; 
 //   final String baseUrl = 'https://newsapi.org/v2/';
 
 //   Future<List<dynamic>> fetchNews({String? category, String? query}) async {
@@ -84,7 +84,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class NewsService {
-  final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; // Replace with your API key
+  final String apiKey = '34bc6949ec914acb86c49b4f9ed93ad3'; 
   final String baseUrl = 'https://newsapi.org/v2/';
   final int pageSize = 10; // Number of articles per page
 
